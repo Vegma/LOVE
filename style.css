@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.sec-01{
+    background-color: black;
+    height: 969px;
+}
+
+section{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 100px;
+  color: #fff;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-title{
+  font-size: 100px;
+  position: absolute;
+  top: -250px;
+  margin-bottom: 100px;
+  font-family: Cormorant Garamond;
+  letter-spacing: 20px;
+}
+
+.content{
+  position: relative;
+  width: 1150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .image{
+  position: relative;
+  top: 50px;
+  left: -220px;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+
+.content .image img{
+  z-index: 111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.content .text-box{
+  z-index: 222;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  max-width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transform: translate(-80px, 50px);
+}
+
+.content .text-box h3{
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.media-icons{
+  margin-top: 100px;
+}
+
+.media-icons a{
+  color: #fff;
+  font-size: 2em;
+  margin: 60px;
+}
+
+.section-title{
+  font-size: 3em;
+  margin-bottom: 80px;
+}
+
+.info-title{
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.info{
+  width: 700px;
+  margin-left: 50px;
+}
+
+.media-info{
+  width: 400px;
+  margin-left: 50px;
+}
+
+.media-info li{
+  list-style: none;
+  font-size: 1.4em;
+}
+
+.media-info li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.media-info li:not(:last-child){
+  margin-bottom: 50px;
+}
+
+.media-info li:nth-child(1), .media-info li:nth-child(5){
+  padding-left: 100px;
+}
+
+.media-info li:nth-child(2), .media-info li:nth-child(4){
+  padding-left: 50px;
+}
+
+.sec-03{
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Vegmas CODE */
+
+
+.rectangle-01{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 100px;
+    background: #0C715F;
+    opacity: 0.7;
+    filter: blur(20px);
+    border-radius: 10px 10px;    
+}
+
+
+.names{
+    position: absolute;
+    left: 170px;
+    top: center;
+    margin-top: 70px;
+    font-size: 45px;
+    color: #ffffff;
+    
+}
+.names > h1{
+    padding-bottom: 100px;
+    opacity: 0.7;
+}
+
+.img-2{
+  position: absolute;
+  width: 1052.9px;
+  height: 469.88px;
+  right: -250px;
+  top: -4px;
+
+}
+
+.rectangle-02{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 700px;
+    top: 400px;
+    background: #0C715F;
+    opacity: 0.7;
+    filter: blur(20px);
+    border-radius: 10px 10px;    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
